@@ -1,0 +1,18 @@
+template snmp-fabric snmp-policy
+    snmp-server clientgroup Darrell client 10.255.200.202
+    snmp-server clientgroup Darrell client 10.255.206.82
+    snmp-server community Public
+    snmp-server community Private
+    snmp-server contact "Keith Burns"
+    snmp-server host 146.18.88.95 traps-version 2c Public
+    snmp-server host 204.135.55.148 traps-version 2c Public
+    snmp-server host 199.81.64.174 traps-version 2c Public
+    snmp-server host 204.135.236.154 traps-version 2c Public
+    snmp-server host 199.81.7.31 traps-version 2c Public
+    snmp-server host 199.81.7.30 traps-version 2c Public
+    snmp-server host 204.135.88.142 traps-version 2c Public
+    snmp-server host 192.189.184.9 traps-version 2c Public
+    snmp-server host 10.255.200.202 traps-version 2c Public
+    snmp-server host 10.255.204.30 traps-version 2c Public
+    snmp-server location "70 FedEx Parkway"
+    snmp-server protocol enable
